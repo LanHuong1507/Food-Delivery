@@ -29,6 +29,11 @@ import rating_star from './rating_star.png'
 import add_icon_white from './add_icon_white.jpg'
 import remove_icon_red from './remove_icon_red.png'
 import add_icon_green from './add_icon_green.png'
+import facebook_icon from './facebook_icon.png'
+import instagram_icon from './instagram_icon.png'
+import twitter_icon from './twitter_icon.png'
+import play_store from './play_store.png'
+import app_store from './app_store.png'
 export const assets = {
     logo,
     search_icon,
@@ -60,7 +65,12 @@ export const assets = {
     rating_star,
     add_icon_white,
     remove_icon_red,
-    add_icon_green
+    add_icon_green,
+    facebook_icon,
+    instagram_icon,
+    twitter_icon,
+    play_store,
+    app_store
 }
 export const menu_list=[
     {

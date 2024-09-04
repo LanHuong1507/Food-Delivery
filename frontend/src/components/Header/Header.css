@@ -35,3 +35,42 @@
     font-size: max(1vw,13px);
     border-radius: 50px;
 }
+@media(max-width: 768px){
+    .header{
+        height: 25vh;
+        margin-top: 10px;
+    }
+    .header-contents{
+        max-width: 80%;
+        left: 10%;
+    }
+    .header-contents h2{
+        font-size: 5vw;
+    }
+    .header-contents p{
+        font-size: 2vw;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+        font-size: 3vw;
+    }
+}
+@media(max-width: 500px){
+    .header{
+        height: 20vh;
+    }
+    .header-contents{
+        max-width: 90%;
+        left: 5%;
+    }
+    .header-contents h2{
+        font-size: 4vw;
+    }
+    .header-contents p{
+        font-size: 1.5vw;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+        font-size: 2vw;
+    }
+}
