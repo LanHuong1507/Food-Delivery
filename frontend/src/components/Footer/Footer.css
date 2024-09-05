@@ -43,3 +43,15 @@
     background-color: grey;
     border: none;
 }
+@media (max-width: 768px){
+    .footer-content{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .footer-content-left{
+        align-items: start;
+    }
+    .footer-content-center,.footer-content-right{
+        align-items: start;
+    }
+}
