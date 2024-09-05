@@ -34,6 +34,7 @@ import instagram_icon from './instagram_icon.png'
 import twitter_icon from './twitter_icon.png'
 import play_store from './play_store.png'
 import app_store from './app_store.png'
+import cross_icon from './cross_icon.png'
 export const assets = {
     logo,
     search_icon,
@@ -70,7 +71,8 @@ export const assets = {
     instagram_icon,
     twitter_icon,
     play_store,
-    app_store
+    app_store,
+    cross_icon
 }
 export const menu_list=[
     {
